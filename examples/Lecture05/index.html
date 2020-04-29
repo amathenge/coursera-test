@@ -7,10 +7,12 @@
     <title>My first AngularJS App</title>
   </head>
   <body>
-    <h1>My first AngularJS App</h1>
+    <h1>My first AngularJS App - Modified by Tony</h1>
     <div ng-controller="MyFirstController">
-      <input type="text" ng-model="name">
-      Inside my input is: {{name}}
+      <input type="text" ng-model="name"> <br />
+      Inside my input is: {{name}} <br />
+      And I've added an additional piece of data: <strong>{{moreData}}</strong> <br />
+      And here's the function call: <strong>{{sayHello()}}</strong>
     </div>
   </body>
 </html>
